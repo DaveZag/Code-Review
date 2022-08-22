@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">The most used languages by programmers</p>
+    </div>
+    <form action="" id="survey-form">
+      <div class="details">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Your name" required />
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required />
+        <label for="number" id="number-label">Tel</label>
+        <input
+          type="number"
+          id="number"
+          min="10"
+          max="15"
+          placeholder="Number"
+          required
+        />
+      </div>
+      <div class="select">
+        <select name="" id="dropdown">
+          <option value="python">Python</option>
+          <option value="js">Javascript</option>
+          <option value="c#">C#</option>
+          <option value="ruby">Ruby</option>
+          <option value="c++">C++</option>
+        </select>
+      </div>
+      <div class="radio">
+        <input type="radio" name="languages" value="C" class="outline" />
+        <label for="radio" class="input-t">C</label>
+
+        <input type="radio" name="languages" value="Java" />
+        <label for="radio" class="input-t">Java</label>
+      </div>
+      <div class="check">
+        <input type="checkbox" value="Swift" class="checkbox" />
+        <label for="check" class="input-t">Swift</label>
+        <input type="checkbox" value="Darts" class="checkbox" />
+        <label for="check" class="input-t">Darts</label>
+        <input type="checkbox" value="Kotlin" class="checkbox" />
+        <label for="check" class="input-t">Kotlin</label>
+      </div>
+      <div class="textarea">
+        <textarea
+          name="review"
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Comments"
+        ></textarea>
+      </div>
+      <div class="btn">
+        <button id="submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
