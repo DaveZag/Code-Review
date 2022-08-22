@@ -1,8 +1,6 @@
-# Project Name
+# Project Name: Code Review
 
-## Code Review
-
-> This project is a review of my previous work in the microverse trials.
+ > __This project is a review of one of my previous works in the Microverse trials.__
 
 ## Built With
 
