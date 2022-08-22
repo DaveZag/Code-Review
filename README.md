@@ -8,7 +8,7 @@
 
 ## Author
 
- 👤 **Dave ZAGABE**.
+ 👤 __Dave ZAGABE__.
 
 ## Repo Links
 
